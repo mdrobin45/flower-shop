@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700;800;900&display=swap");
+
+body {
+   font-family: "Mulish", sans-serif;
+   margin: 0;
+   padding: 0;
+}
+a {
+   text-decoration: none;
+   color: #272727;
+}
+p {
+   font-weight: 300;
+   font-size: 16px;
+   line-height: 1.6;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   color: #272727;
+}
+img {
+   width: 100%;
+}
+.container {
+   width: 80%;
+   margin: auto;
+}
+.hero-section {
+   background: rgba(229, 84, 115, 0.1);
+}
+.hero-wrapper {
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.hero-left {
+   width: 60%;
+}
+.hero-right img {
+   width: 70%;
+   display: block;
+   margin: 0 0 0 auto;
+}
+.btn {
+   border-radius: 8px;
+   background: #e55473;
+   padding: 16px 30px;
+   color: #fff;
+   font-size: 16px;
+   margin-top: 1rem;
+   display: inline-block;
+}
+.hero-left h1 {
+   font-weight: 800;
+   font-size: 39px;
+}
+.featured-flowers {
+   padding: 3rem 0;
+}
+.featured-wrapper {
+   display: flex;
+   justify-content: space-around;
+}
+.featured-flowers header {
+   text-align: center;
+   width: 50%;
+   margin: auto;
+}
+.featured-flowers header h2 {
+   font-weight: 800;
+   margin-bottom: 0;
+   font-size: 30px;
+}
+.featured-item img {
+   width: 65%;
+}
+.featured-item p {
+   text-decoration: underline;
+}
+.featured-item {
+   text-align: center;
+   width: 30%;
+}
+.featured-image-wrapper {
+   border-radius: 300px 300px 0px 0px;
+   background: rgba(167, 33, 98, 0.15);
+   padding-top: 7rem;
+   display: flex;
+   min-height: 19rem;
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-end;
+}
+#featured-img-item2 {
+   justify-content: center;
+   background-color: rgba(5, 151, 160, 0.15);
+}
+#featured-img-item3 {
+   background-color: rgba(71, 125, 17, 0.15);
+}
+.service-wrapper {
+   display: flex;
+   background: rgba(39, 39, 39, 0.05);
+   align-items: center;
+   justify-content: space-around;
+   border-radius: 8px;
+   padding: 4rem 0;
+   margin: 3rem auto;
+}
+.service-wrapper div {
+   text-align: center;
+}
+.service-wrapper div img {
+   width: 22%;
+}
+.service-wrapper p {
+   margin: 0;
+}
