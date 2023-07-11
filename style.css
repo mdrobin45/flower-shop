@@ -177,3 +177,27 @@ img {
    border-top-right-radius: 7px;
    border-bottom-right-radius: 7px;
 }
+footer {
+   background-color: #171758;
+   color: #fff;
+}
+.footer-wrapper {
+   width: 40%;
+   text-align: center;
+   padding: 3rem 0;
+}
+.f-highlight-text {
+   color: #e55473;
+}
+.copyright {
+   background-color: #000;
+   display: flex;
+   justify-content: space-between;
+   padding: 0 2rem;
+   align-items: center;
+}
+.social-icon-group a {
+   font-size: 28px;
+   margin: 0 3px;
+   color: #fff;
+}
