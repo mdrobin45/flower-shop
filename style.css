@@ -140,3 +140,40 @@ img {
 .instagram-image-wrapper div {
    margin: 0 0.5rem;
 }
+.newsletter-wrapper {
+   background-image: url("./images/newsletter-bg.png");
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 5rem 0;
+   margin: 3rem auto;
+}
+.newsletter-header {
+   text-align: center;
+}
+.news-form {
+   text-align: center;
+   width: 70%;
+   display: flex;
+   align-items: center;
+   margin: auto;
+   justify-content: center;
+}
+.news-email-field {
+   padding: 16px 10px;
+   font-size: 16px;
+   border: none;
+   width: 60%;
+   border-top-left-radius: 7px;
+   border-bottom-left-radius: 7px;
+}
+.news-form input[type="button"] {
+   background: #e55473;
+   padding: 16px 30px;
+   color: #fff;
+   font-size: 16px;
+   display: inline-block;
+   border: none;
+   border-top-right-radius: 7px;
+   border-bottom-right-radius: 7px;
+}
