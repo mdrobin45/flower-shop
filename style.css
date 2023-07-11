@@ -68,10 +68,9 @@ img {
 .featured-wrapper {
    display: flex;
    justify-content: space-around;
-   align-items: flex-end;
 }
 .featured-item img {
-   width: 75%;
+   width: 80%;
 }
 .featured-item p {
    text-decoration: underline;
@@ -79,19 +78,18 @@ img {
 .featured-item {
    text-align: center;
    width: 30%;
+   border-radius: 300px 300px 0px 0px;
+   overflow: hidden;
 }
 .featured-image-wrapper {
-   border-radius: 300px 300px 0px 0px;
    background: rgba(167, 33, 98, 0.15);
-   padding-top: 7rem;
    display: flex;
-   min-height: 19rem;
+   height: 100%;
    flex-direction: column;
    align-items: center;
    justify-content: flex-end;
 }
 #featured-img-item2 {
-   justify-content: center;
    background-color: rgba(5, 151, 160, 0.15);
 }
 #featured-img-item3 {
