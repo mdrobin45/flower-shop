@@ -30,6 +30,12 @@ img {
 .section-bg {
    background: rgba(229, 84, 115, 0.1);
 }
+.section-header {
+   text-align: center;
+   width: 50%;
+   margin: auto;
+   padding-bottom: 3rem;
+}
 .container {
    width: 80%;
    margin: auto;
@@ -62,11 +68,6 @@ img {
 .featured-wrapper {
    display: flex;
    justify-content: space-around;
-}
-.featured-flowers header {
-   text-align: center;
-   width: 50%;
-   margin: auto;
 }
 .featured-item img {
    width: 65%;
@@ -129,4 +130,13 @@ img {
 }
 #hot-deal-highlight {
    color: #e55473;
+}
+.instagram-image-wrapper {
+   display: flex;
+   align-items: center;
+   padding-bottom: 3rem;
+   justify-content: space-between;
+}
+.instagram-image-wrapper div {
+   margin: 0 0.5rem;
 }
