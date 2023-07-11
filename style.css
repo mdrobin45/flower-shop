@@ -68,9 +68,10 @@ img {
 .featured-wrapper {
    display: flex;
    justify-content: space-around;
+   align-items: flex-end;
 }
 .featured-item img {
-   width: 65%;
+   width: 75%;
 }
 .featured-item p {
    text-decoration: underline;
