@@ -14,23 +14,25 @@ p {
    font-size: 16px;
    line-height: 1.6;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-   color: #272727;
-}
 img {
    width: 100%;
+}
+.h1 {
+   font-weight: 800;
+   font-size: 39px;
+}
+.h2 {
+   color: #272727;
+   font-weight: 800;
+   margin-bottom: 0;
+   font-size: 30px;
+}
+.section-bg {
+   background: rgba(229, 84, 115, 0.1);
 }
 .container {
    width: 80%;
    margin: auto;
-}
-.hero-section {
-   background: rgba(229, 84, 115, 0.1);
 }
 .hero-wrapper {
    display: flex;
@@ -54,10 +56,6 @@ img {
    margin-top: 1rem;
    display: inline-block;
 }
-.hero-left h1 {
-   font-weight: 800;
-   font-size: 39px;
-}
 .featured-flowers {
    padding: 3rem 0;
 }
@@ -69,11 +67,6 @@ img {
    text-align: center;
    width: 50%;
    margin: auto;
-}
-.featured-flowers header h2 {
-   font-weight: 800;
-   margin-bottom: 0;
-   font-size: 30px;
 }
 .featured-item img {
    width: 65%;
@@ -119,4 +112,21 @@ img {
 }
 .service-wrapper p {
    margin: 0;
+}
+.hot-deal-wrapper {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 3rem 0;
+   margin: 5rem auto;
+}
+.hot-deal-left {
+   text-align: center;
+   width: 45%;
+}
+.hot-deal-right img {
+   width: 80%;
+}
+#hot-deal-highlight {
+   color: #e55473;
 }
